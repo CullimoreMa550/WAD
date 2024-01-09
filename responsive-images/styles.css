@@ -1,0 +1,6 @@
+img{
+    background-image: url(waytoofatcat.jpg);
+    width: 75%;
+    height: auto;
+    object-fit: cover;
+}
