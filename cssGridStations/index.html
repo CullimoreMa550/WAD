@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Stations</title>
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: 100px, 30%, 2fr;
+            grid-template-rows: 200px, minmax(1500px, 1fr);
+            column-gap: 10px;
+        }
+        .grid-item{
+            background-color: blueviolet;
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">Item One</div>
+        <div class="grid-item">Item Two</div>
+        <div class="grid-item">Item Three</div>
+        <div class="grid-item">Item Four</div>
+        <div class="grid-item">Item Five</div>
+
+    </div>
+    
+</body>
+</html>
