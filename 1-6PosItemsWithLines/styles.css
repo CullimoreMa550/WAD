@@ -1,0 +1,67 @@
+.grid-container{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(5, 1fr);
+text-align: center;
+color: aliceblue;
+font-family: 'Honk', system-ui;
+font-size: 2.5rem;
+border: 5px solid black;
+}
+.grid-item1{
+grid-row-start: 1;
+grid-row-end: 1;
+grid-column-start: 1;
+grid-column-end: 1;
+background-color: aquamarine;
+}
+
+.grid-item2{
+grid-row-start: 1;
+grid-row-end: 1;
+grid-column-start: 2;
+grid-column-end: 4;
+background-color: blueviolet;
+}
+.grid-item3{
+background-color: green;
+grid-row-start: 1;
+grid-row-end: 6;
+grid-column-start: 4;
+grid-column-end: 5;
+}
+.grid-item4{
+background-color: rgb(13, 113, 201);
+grid-row-start: 2;
+grid-row-end: 6;
+grid-column-start: 1;
+grid-column-end: 2;
+}
+.grid-item5{
+background-color: rgb(172, 32, 32);
+grid-row-start: 2;
+grid-row-end: 3;
+grid-column-start: 3;
+grid-column-end: 4;
+}
+.grid-item6{
+background-color: rgb(232, 162, 174);
+grid-row-start: 3;
+grid-row-end: 5;
+grid-column-start:3;
+grid-column-end:4;
+}
+.grid-item7{
+    background-color: grey;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start:2;
+    grid-column-end: 2;
+}
+.grid-item8{
+    background-color: black;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start:2;
+    grid-column-end: 4;
+}
