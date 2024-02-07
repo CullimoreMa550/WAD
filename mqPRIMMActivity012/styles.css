@@ -1,0 +1,18 @@
+img{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    height: 100%;
+}
+.cat{ border:10px solid yellow;}
+.neh{
+    display: none;
+    border: 10px dotted green;
+}
+
+@media only screen and (max-width: 850px){
+    .cat{display:none;}
+    .neh{display: block;}
+}
