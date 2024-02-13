@@ -60,6 +60,6 @@ background-color: black;
     text-align: center;
     border: 4px solid whitesmoke;
     background-color: rgb(191, 153, 227);
-    grid-column: 1/-1;
+    grid-column: 1/-2;
     grid-row: -2/-1
 }
