@@ -1,0 +1,57 @@
+body{
+    background-color: antiquewhite;
+    color: black;
+    font-size: 1.2em;
+    line-height: 1.5;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+.cards{
+    display: grid;
+    max-width: 800px;
+
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+    margin: 2em auto;
+}
+.card{
+    display: grid;
+
+    grid-template-rows: max-content 400px 1fr;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card h2{
+    margin: 0;
+    padding: 0.5rem;
+}
+.card .content{
+    padding: 0.5rem;
+}
+.card footer{
+    background-color: rgb(87, 86, 86);
+    color: beige;
+    padding: 0.5rem;
+}
+.card:hover{
+    transition: 1s ease;
+    transform: scale(0.8);
+    border:5px solid cadetblue;
+}
+
+
+
+@media (width<550px){
+    .cards{
+        margin: 1em 2em;
+    }
+}
